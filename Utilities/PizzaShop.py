@@ -30,7 +30,7 @@ if add_pepperoni == "Y":
 if extra_chesse == "Y":
     bill+=1
     
-print(f"The final Bill is : {bill}")
+print(f"The final Bill is : ${bill}")
 
 
 

@@ -12,6 +12,8 @@ if(number >= 120):
     elif age <= 18:
         bill = 7
         print("Ticket Price :  $7")
+    elif age >=45 and age <= 55:
+        print("Everything's gonna be okay. Have a free ride on Us !")
     else:
         bill = 12
         print("Ticket Price : $12")
@@ -20,7 +22,6 @@ if(number >= 120):
     if wants_photo == "Y":
         bill += 3
         
-    else : 
         print(f"Your Final Bill is ${bill}")
 else:
     print("You cannot ride")
