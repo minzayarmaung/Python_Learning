@@ -1,22 +1,22 @@
 word_list = [
-    'Serendipity'
-    'Mellifluous'
-    'Obfuscate'
-    'Quixotic'
-    'Perspicacious'
-    'Ephemeral'
-    'Nebulous'
-    'Ineffable'
-    'Mellifluous'
-    'Disparate'
-    'Cacophony'
-    'Lethargic'
-    'Epiphany'
+    'Precious',
+    'Mellifluous',
+    'Obvious',
+    'Quixotic',
+    'Perspicacious',
+    'Ephemeral',
+    'Nebulous',
+    'Ineffable',
+    'Mellifluous',
+    'Disparate',
+    'Cacophony',
+    'Lethargic',
+    'Epiphany',
     'Vicarious'
-    'Ephemeral'
-    'Serendipity'
-    'Quizzical'
-    'Pernicious'
-    'Ineffable'
+    'Ephemeral',
+    'Serendipity',
+    'Quizzical',
+    'Pernicious',
+    'Ineffable',
     'Incandescent'
 ]
