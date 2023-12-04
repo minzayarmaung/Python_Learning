@@ -4,7 +4,6 @@ def greet_with(name , location):
     
 greet_with("Zayar" , "Yangon")
 
-
 #Keyword
 def greet_2(name = "Maung" , location = "Mandalay"):
     print(f"Name : {name}")
