@@ -20,6 +20,7 @@ programming_dictionary = {"Bug" : "This is the BUG",
 #programming_dictionary["Bug"] = "There is A moth in your Computer."
 
 #print(programming_dictionary)
+print(programming_dictionary)
 
 #Loop through a dictionary
 for key in programming_dictionary:
