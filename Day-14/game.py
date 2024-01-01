@@ -26,37 +26,38 @@ I recommend to play. So that you will get it how does this program works
 '''
 
 
-def get_random_person():            
+def get_random_person():
     return random.choice(game_data.data)
+
 
 def gameplay():
     count = 0
     print(art.logo)
     personA = get_random_person()
     personB = get_random_person()
-    
+
     while True:
-        
+
         name = personA['name']
         description = personA['description']
         country = personA['country']
         followersA = int(personA['follower_count'])
-        
+
         name1 = personB['name']
         description1 = personB['description']
         country1 = personB['country']
-        followersB = int(personB['follower_count'])        
-        
+        followersB = int(personB['follower_count'])
+
         print(f"Compare A : {name} , {description} , from {country}")
         print(art.vs)
         print(f"Compare B : {name1} , {description1} , from {country1}")
 
         choose = input("Who has more followers? Type 'A' or 'B' : ").upper()
-        
-        if (choose == 'A' and followersA > followersB) or  (choose == 'B'and followersB > followersA):
-            count+=1
+
+        if (choose == 'A' and followersA > followersB) or (choose == 'B' and followersB > followersA):
+            count += 1
             print(f"You're right ! Current Score : {count}")
-            
+
             if followersA > followersB:
                 personB = get_random_person()
             else:
@@ -68,6 +69,6 @@ def gameplay():
         else:
             print(f"Sorry , that's wrong. Final score : {count}")
             break
-                
-gameplay()       
-    
+
+
+gameplay()
