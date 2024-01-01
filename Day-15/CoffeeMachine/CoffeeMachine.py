@@ -1,4 +1,5 @@
 from game_data import MENU
+import art
 
 profit = 0
 resources = {
@@ -155,4 +156,5 @@ def startGame():
                     print(f"Sorry , there is not enough coffee.")
 
 
+print(art.logo)
 startGame()
