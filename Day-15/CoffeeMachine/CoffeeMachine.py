@@ -132,7 +132,7 @@ def startGame():
                 elif resources['coffee'] < espresso_coffee:
                     print(f"Sorry , there is not enough coffee.")
 
-        # CAPPUCCINO COFFEE CHECK
+        # CAPPUCCINO COFFEE CHECKx
         elif decision == "cappuccino":
             coffee_type = decision
             print(f"You have chosen : {decision}")
