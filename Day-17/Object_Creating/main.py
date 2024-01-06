@@ -7,7 +7,7 @@ class User:
 
     def follow(self, user):
         user.followers += 1
-        self.followers += 1
+        self.following += 1
 
 
 user_1 = User("001", "Min Zayar Maung")
