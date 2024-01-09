@@ -1,13 +1,12 @@
-from turtle import Turtle, Screen
+from turtle import Turtle , Screen
 
-timmy_the_turtle = Turtle()
+timmy = Turtle()
 
-timmy_the_turtle.shape("turtle")
-
-for i in range(4):
-    timmy_the_turtle.forward(100)
-    timmy_the_turtle.right(90)
-
+for i in range(10):
+    timmy.forward(10)
+    timmy.penup()
+    timmy.forward(10)
+    timmy.pendown()
 
 
 screen = Screen()
